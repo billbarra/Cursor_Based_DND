@@ -45,4 +45,4 @@ Therefore, this project is purely a demo. It's meant to offer a potential soluti
 For any inquiries or suggestions for improvement, please feel free to contact: billbarrazz@gmail.com
 
 ## How to Use
-"You should be able to start by downloading the folder and opening it with Cursor or another AI-powered code editor. Have it read the AI_SYSTEM_PROMPT.md file, and then say to it: Please read this system prompt and let's start the game! I want to create my character first."
+You should be able to start by downloading the folder and opening it with Cursor or another AI-powered code editor. Have it read the `AI_SYSTEM_PROMPT.md` file, and then say to it: `Please read this system prompt and let's start the game! I want to create my character first`.
