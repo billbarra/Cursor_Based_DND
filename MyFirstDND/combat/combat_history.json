@@ -1,0 +1,83 @@
+{
+  "combat_sessions": [],
+  "statistics": {
+    "total_combats": 0,
+    "total_rounds": 0,
+    "average_rounds_per_combat": 0,
+    "total_damage_dealt": 0,
+    "total_damage_taken": 0,
+    "combat_efficiency": 0.0,
+    "difficulty_trend": "stable"
+  },
+  "recent_combats": [],
+  "combat_templates": {
+    "easy": {
+      "enemy_count": 2,
+      "enemy_cr": 0.25,
+      "expected_rounds": 3,
+      "expected_difficulty": "easy"
+    },
+    "normal": {
+      "enemy_count": 3,
+      "enemy_cr": 0.5,
+      "expected_rounds": 5,
+      "expected_difficulty": "normal"
+    },
+    "hard": {
+      "enemy_count": 4,
+      "enemy_cr": 1,
+      "expected_rounds": 7,
+      "expected_difficulty": "hard"
+    },
+    "deadly": {
+      "enemy_count": 5,
+      "enemy_cr": 2,
+      "expected_rounds": 8,
+      "expected_difficulty": "deadly"
+    }
+  },
+  "performance_metrics": {
+    "damage_per_round": {
+      "player": {
+        "average": 0,
+        "best": 0,
+        "worst": 0,
+        "trend": "stable"
+      },
+      "enemies": {
+        "average": 0,
+        "best": 0,
+        "worst": 0,
+        "trend": "stable"
+      }
+    },
+    "accuracy": {
+      "player_hit_rate": 0.0,
+      "enemy_hit_rate": 0.0,
+      "critical_hit_rate": 0.0
+    },
+    "survival": {
+      "average_hp_remaining": 0.0,
+      "near_death_experiences": 0,
+      "healing_efficiency": 0.0
+    }
+  },
+  "balance_adjustments": {
+    "last_adjustment": null,
+    "adjustment_history": [],
+    "current_difficulty": "normal",
+    "target_difficulty": "normal",
+    "adjustment_recommendations": []
+  },
+  "encounter_analysis": {
+    "environmental_factors": [],
+    "tactical_advantages": [],
+    "unexpected_challenges": [],
+    "learning_opportunities": []
+  },
+  "meta_data": {
+    "last_updated": "2024-01-01",
+    "version": "1.0.0",
+    "notes": "战斗历史记录系统初始化完成，等待第一场战斗"
+  }
+}

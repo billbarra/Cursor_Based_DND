@@ -1,0 +1,175 @@
+{
+  "core_mechanics": {
+    "ability_checks": {
+      "formula": "d20 + 属性调整值 + 熟练加值(如果熟练)",
+      "advantage": "掷两次骰子，取较高值",
+      "disadvantage": "掷两次骰子，取较低值",
+      "critical_success": "自然20",
+      "critical_failure": "自然1"
+    },
+    "saving_throws": {
+      "formula": "d20 + 属性调整值 + 熟练加值(如果熟练)",
+      "dc": "8 + 施法者的熟练加值 + 施法者的相关属性调整值"
+    },
+    "attack_rolls": {
+      "formula": "d20 + 攻击加值",
+      "attack_bonus": "熟练加值 + 相关属性调整值 + 魔法加值",
+      "hit": "攻击检定 >= 目标AC",
+      "critical_hit": "自然20",
+      "critical_failure": "自然1"
+    },
+    "damage_calculation": {
+      "weapon_damage": "武器伤害骰 + 相关属性调整值 + 魔法加值",
+      "critical_hit_damage": "所有伤害骰翻倍",
+      "damage_types": ["钝击", "挥砍", "穿刺", "火焰", "寒冷", "闪电", "雷鸣", "酸蚀", "毒素", "心灵", "光耀", "黯蚀", "力场", "死灵", "辐射"]
+    }
+  },
+  "combat_rules": {
+    "initiative": {
+      "formula": "d20 + 敏捷调整值 + 其他加值",
+      "tie_breaker": "敏捷值高的先行动"
+    },
+    "action_economy": {
+      "action": "每回合1个",
+      "bonus_action": "每回合最多1个",
+      "reaction": "每回合1个(在他人回合)",
+      "movement": "等于速度值",
+      "interaction": "每回合1个免费互动"
+    },
+    "movement": {
+      "difficult_terrain": "消耗双倍移动力",
+      "climbing": "消耗双倍移动力",
+      "swimming": "消耗双倍移动力",
+      "crawling": "消耗双倍移动力"
+    },
+    "cover": {
+      "half_cover": "AC+2, 敏捷豁免检定+2",
+      "three_quarters_cover": "AC+5, 敏捷豁免检定+5",
+      "full_cover": "无法成为攻击目标"
+    }
+  },
+  "spellcasting": {
+    "spell_attack": {
+      "formula": "d20 + 施法者的熟练加值 + 施法属性调整值",
+      "dc": "8 + 施法者的熟练加值 + 施法属性调整值"
+    },
+    "concentration": {
+      "damage": "DC10的体质豁免检定",
+      "damage_dc": "DC10或伤害的一半(取较高值)",
+      "failure": "法术结束"
+    },
+    "spell_slots": {
+      "1st_level": "根据职业和等级",
+      "higher_levels": "可以消耗高级法术位施展低级法术"
+    }
+  },
+  "conditions": {
+    "blinded": {
+      "effect": "无法看见，攻击检定有劣势，被攻击检定有优势"
+    },
+    "charmed": {
+      "effect": "无法攻击魅惑者，魅惑者对你有优势"
+    },
+    "deafened": {
+      "effect": "无法听见，自动失败需要听觉的检定"
+    },
+    "frightened": {
+      "effect": "攻击检定有劣势，无法主动接近恐惧源"
+    },
+    "grappled": {
+      "effect": "速度变为0，无法从擒抱中获益"
+    },
+    "incapacitated": {
+      "effect": "无法执行动作或反应"
+    },
+    "invisible": {
+      "effect": "攻击检定有优势，被攻击检定有劣势"
+    },
+    "paralyzed": {
+      "effect": "无法移动或说话，攻击检定有优势，自动失败力量和敏捷豁免检定"
+    },
+    "petrified": {
+      "effect": "变为石头，无法移动或感知，攻击检定有优势"
+    },
+    "poisoned": {
+      "effect": "攻击检定和属性检定有劣势"
+    },
+    "prone": {
+      "effect": "只能爬行或站起，攻击检定有劣势，近战攻击检定有优势"
+    },
+    "restrained": {
+      "effect": "攻击检定有劣势，敏捷豁免检定有劣势，速度变为0"
+    },
+    "stunned": {
+      "effect": "无法移动，只能说话和进行有限的动作"
+    },
+    "unconscious": {
+      "effect": "倒地，无法移动或说话，攻击检定有优势，自动失败力量和敏捷豁免检定"
+    }
+  },
+  "rest_and_recovery": {
+    "short_rest": {
+      "duration": "至少1小时",
+      "benefits": "使用生命骰恢复生命值，恢复某些能力"
+    },
+    "long_rest": {
+      "duration": "至少8小时",
+      "benefits": "恢复所有生命值，恢复所有生命骰，恢复所有能力"
+    },
+    "healing": {
+      "natural": "每24小时恢复1个生命骰",
+      "magical": "立即恢复指定生命值",
+      "stabilization": "DC10的体质豁免检定"
+    }
+  },
+  "experience_and_leveling": {
+    "experience_points": {
+      "combat": "根据敌人CR",
+      "social": "根据互动复杂度",
+      "exploration": "根据发现重要性",
+      "puzzle": "根据难度"
+    },
+    "level_up": {
+      "hit_points": "1个生命骰 + 体质调整值",
+      "proficiency_bonus": "根据等级表",
+      "features": "根据职业和等级"
+    }
+  },
+  "equipment_rules": {
+    "weapon_properties": {
+      "ammunition": "需要弹药",
+      "finesse": "可以使用力量或敏捷",
+      "heavy": "小型生物使用有劣势",
+      "light": "可以双持",
+      "loading": "需要装填动作",
+      "range": "远程攻击范围",
+      "reach": "攻击范围增加5尺",
+      "thrown": "可以投掷",
+      "two_handed": "需要双手使用",
+      "versatile": "可以单手或双手使用"
+    },
+    "armor_properties": {
+      "light": "敏捷调整值无限制",
+      "medium": "敏捷调整值最大+2",
+      "heavy": "敏捷调整值0",
+      "stealth": "可能影响潜行"
+    }
+  },
+  "environmental_rules": {
+    "lighting": {
+      "bright": "正常视觉",
+      "dim": "劣势察觉检定",
+      "darkness": "需要黑暗视觉或光源"
+    },
+    "weather": {
+      "rain": "可能影响远程攻击",
+      "wind": "可能影响飞行",
+      "extreme_cold": "需要体质豁免检定"
+    },
+    "terrain": {
+      "difficult": "双倍移动力消耗",
+      "hazardous": "可能造成伤害",
+      "magical": "可能有特殊效果"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# DND Campaign Library Dependencies
+# No external dependencies required - uses only Python standard library
+
+# For development (optional)
+# pytest>=6.0
+# black>=21.0
+# flake8>=3.8
+# mypy>=0.800

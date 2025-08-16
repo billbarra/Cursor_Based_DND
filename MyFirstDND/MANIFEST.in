@@ -1,0 +1,21 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include STATUS.md
+include RELEASE_TEMPLATE.md
+include requirements.txt
+include setup.py
+
+recursive-include characters *.json
+recursive-include combat *.json
+recursive-include items *.json
+recursive-include monsters *.json
+recursive-include adventures *.json
+recursive-include config *.json
+recursive-include rules *.json *.py
+recursive-include utils *.py
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+recursive-exclude * .git*

@@ -1,0 +1,268 @@
+{
+  "monsters": {
+    "goblin": {
+      "name": "哥布林",
+      "size": "小型",
+      "type": "类人生物",
+      "alignment": "混乱邪恶",
+      "armor_class": 15,
+      "hit_points": "7 (2d6)",
+      "speed": {
+        "walk": 30
+      },
+      "ability_scores": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 10,
+        "intelligence": 10,
+        "wisdom": 8,
+        "charisma": 8
+      },
+      "saving_throws": {},
+      "skills": {
+        "stealth": 6
+      },
+      "damage_vulnerabilities": [],
+      "damage_resistances": [],
+      "damage_immunities": [],
+      "condition_immunities": [],
+      "senses": {
+        "darkvision": 60,
+        "passive_perception": 9
+      },
+      "languages": ["通用语", "哥布林语"],
+      "challenge_rating": 0.25,
+      "experience_points": 50,
+      "abilities": {
+        "夜视": "哥布林在微光环境下能看60尺远",
+        "哥布林战术": "哥布林与至少一个其他哥布林相邻时，攻击检定有优势"
+      },
+      "actions": {
+        "短剑": {
+          "name": "短剑",
+          "attack_bonus": 4,
+          "damage": "1d6+2",
+          "damage_type": "穿刺"
+        },
+        "短弓": {
+          "name": "短弓",
+          "attack_bonus": 4,
+          "damage": "1d6+2",
+          "damage_type": "穿刺",
+          "range": "80/320"
+        }
+      },
+      "loot": {
+        "common": ["短剑", "短弓", "箭矢(20支)"],
+        "uncommon": [],
+        "gold_range": [1, 5]
+      }
+    },
+    "orc": {
+      "name": "兽人",
+      "size": "中型",
+      "type": "类人生物",
+      "alignment": "混乱邪恶",
+      "armor_class": 13,
+      "hit_points": "15 (2d8+6)",
+      "speed": {
+        "walk": 30
+      },
+      "ability_scores": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 16,
+        "intelligence": 7,
+        "wisdom": 11,
+        "charisma": 10
+      },
+      "saving_throws": {},
+      "skills": {
+        "intimidation": 2
+      },
+      "damage_vulnerabilities": [],
+      "damage_resistances": [],
+      "damage_immunities": [],
+      "condition_immunities": [],
+      "senses": {
+        "darkvision": 60,
+        "passive_perception": 10
+      },
+      "languages": ["通用语", "兽人语"],
+      "challenge_rating": 0.5,
+      "experience_points": 100,
+      "abilities": {
+        "夜视": "兽人在微光环境下能看60尺远",
+        "好战": "兽人可以用附赠动作进行近战攻击"
+      },
+      "actions": {
+        "战斧": {
+          "name": "战斧",
+          "attack_bonus": 5,
+          "damage": "1d12+3",
+          "damage_type": "挥砍"
+        },
+        "标枪": {
+          "name": "标枪",
+          "attack_bonus": 5,
+          "damage": "1d6+3",
+          "damage_type": "穿刺",
+          "range": "30/120"
+        }
+      },
+      "loot": {
+        "common": ["战斧", "标枪", "皮甲"],
+        "uncommon": [],
+        "gold_range": [5, 15]
+      }
+    },
+    "wolf": {
+      "name": "狼",
+      "size": "中型",
+      "type": "野兽",
+      "alignment": "无阵营",
+      "armor_class": 13,
+      "hit_points": "11 (2d8+2)",
+      "speed": {
+        "walk": 40
+      },
+      "ability_scores": {
+        "strength": 12,
+        "dexterity": 15,
+        "constitution": 12,
+        "intelligence": 3,
+        "wisdom": 12,
+        "charisma": 6
+      },
+      "saving_throws": {},
+      "skills": {
+        "perception": 3,
+        "stealth": 4
+      },
+      "damage_vulnerabilities": [],
+      "damage_resistances": [],
+      "damage_immunities": [],
+      "condition_immunities": [],
+      "senses": {
+        "darkvision": 60,
+        "passive_perception": 13
+      },
+      "languages": ["无"],
+      "challenge_rating": 0.25,
+      "experience_points": 50,
+      "abilities": {
+        "敏锐嗅觉": "狼在嗅觉检定上有优势",
+        "群体战术": "如果狼至少有一个盟友在目标5尺内，攻击检定有优势"
+      },
+      "actions": {
+        "撕咬": {
+          "name": "撕咬",
+          "attack_bonus": 4,
+          "damage": "1d6+1",
+          "damage_type": "穿刺",
+          "special": "如果攻击命中，目标必须通过DC11的力量豁免检定，否则被击倒"
+        }
+      },
+      "loot": {
+        "common": ["狼皮", "狼牙"],
+        "uncommon": [],
+        "gold_range": [0, 0]
+      }
+    },
+    "bandit": {
+      "name": "强盗",
+      "size": "中型",
+      "type": "类人生物",
+      "alignment": "任意非守序",
+      "armor_class": 12,
+      "hit_points": "11 (2d8+2)",
+      "speed": {
+        "walk": 30
+      },
+      "ability_scores": {
+        "strength": 12,
+        "dexterity": 12,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "saving_throws": {},
+      "skills": {},
+      "damage_vulnerabilities": [],
+      "damage_resistances": [],
+      "damage_immunities": [],
+      "condition_immunities": [],
+      "senses": {
+        "passive_perception": 10
+      },
+      "languages": ["通用语"],
+      "challenge_rating": 0.125,
+      "experience_points": 25,
+      "abilities": {},
+      "actions": {
+        "短剑": {
+          "name": "短剑",
+          "attack_bonus": 3,
+          "damage": "1d6+1",
+          "damage_type": "穿刺"
+        },
+        "轻弩": {
+          "name": "轻弩",
+          "attack_bonus": 3,
+          "damage": "1d8+1",
+          "damage_type": "穿刺",
+          "range": "80/320"
+        }
+      },
+      "loot": {
+        "common": ["短剑", "轻弩", "弩矢(20支)", "皮甲"],
+        "uncommon": [],
+        "gold_range": [5, 25]
+      }
+    }
+  },
+  "encounter_builder": {
+    "difficulty_multipliers": {
+      "1_player": 1.0,
+      "2_players": 1.5,
+      "3_players": 2.0,
+      "4_players": 2.5,
+      "5_players": 3.0,
+      "6_players": 3.5
+    },
+    "challenge_rating_guide": {
+      "easy": {
+        "1st_level": 0.25,
+        "2nd_level": 0.5,
+        "3rd_level": 1,
+        "4th_level": 2
+      },
+      "normal": {
+        "1st_level": 0.5,
+        "2nd_level": 1,
+        "3rd_level": 2,
+        "4th_level": 3
+      },
+      "hard": {
+        "1st_level": 1,
+        "2nd_level": 2,
+        "3rd_level": 3,
+        "4th_level": 4
+      },
+      "deadly": {
+        "1st_level": 2,
+        "2nd_level": 3,
+        "3rd_level": 4,
+        "4th_level": 5
+      }
+    },
+    "environmental_modifiers": {
+      "advantageous_terrain": 0.8,
+      "neutral_terrain": 1.0,
+      "disadvantageous_terrain": 1.2,
+      "surprise_round": 0.7,
+      "ambush": 0.6
+    }
+  }
+}

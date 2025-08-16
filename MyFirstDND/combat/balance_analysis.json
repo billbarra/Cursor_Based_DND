@@ -1,0 +1,124 @@
+{
+  "combat_balance_analysis": {
+    "overall_performance": {
+      "combat_count": 0,
+      "average_performance_score": 0.0,
+      "difficulty_perception": "unknown",
+      "enjoyment_rating": 0.0
+    },
+    "round_analysis": {
+      "round_count_distribution": {
+        "1-3_rounds": 0,
+        "4-6_rounds": 0,
+        "7-9_rounds": 0,
+        "10+_rounds": 0
+      },
+      "optimal_round_range": {
+        "min": 4,
+        "max": 7,
+        "current_average": 0
+      },
+      "round_trend": "stable"
+    },
+    "damage_balance": {
+      "player_damage_analysis": {
+        "average_per_round": 0.0,
+        "consistency": 0.0,
+        "scaling_with_level": 0.0,
+        "recommendations": []
+      },
+      "enemy_damage_analysis": {
+        "average_per_round": 0.0,
+        "threat_level": "unknown",
+        "pressure_consistency": 0.0,
+        "recommendations": []
+      },
+      "damage_ratio": {
+        "player_to_enemy": 0.0,
+        "optimal_ratio": 1.2,
+        "balance_status": "unknown"
+      }
+    },
+    "difficulty_assessment": {
+      "current_difficulty": "normal",
+      "difficulty_factors": {
+        "enemy_count": 0.0,
+        "enemy_cr": 0.0,
+        "environmental_hazards": 0.0,
+        "tactical_complexity": 0.0
+      },
+      "player_skill_factor": 0.0,
+      "equipment_factor": 0.0,
+      "overall_difficulty_score": 0.0
+    },
+    "balance_adjustments": {
+      "recent_adjustments": [],
+      "pending_adjustments": [],
+      "adjustment_effectiveness": [],
+      "next_adjustment_targets": []
+    },
+    "loot_recommendations": {
+      "combat_performance_based": [],
+      "difficulty_based": [],
+      "progression_based": [],
+      "immediate_rewards": []
+    },
+    "encounter_design": {
+      "successful_patterns": [],
+      "problematic_patterns": [],
+      "suggested_improvements": [],
+      "new_encounter_ideas": []
+    },
+    "player_progression": {
+      "skill_development": [],
+      "equipment_needs": [],
+      "ability_gaps": [],
+      "growth_opportunities": []
+    },
+    "meta_analysis": {
+      "data_quality": "insufficient",
+      "analysis_confidence": 0.0,
+      "recommended_data_points": 5,
+      "next_analysis_trigger": "after_3_combats"
+    }
+  },
+  "adjustment_history": {
+    "adjustments_made": [],
+    "effectiveness_ratings": [],
+    "lessons_learned": [],
+    "best_practices": []
+  },
+  "predictive_models": {
+    "difficulty_prediction": {
+      "model_accuracy": 0.0,
+      "confidence_intervals": [],
+      "prediction_factors": []
+    },
+    "performance_prediction": {
+      "expected_outcome": "unknown",
+      "confidence_level": 0.0,
+      "key_factors": []
+    }
+  },
+  "recommendations": {
+    "immediate": [],
+    "short_term": [],
+    "long_term": [],
+    "priority_levels": {
+      "high": [],
+      "medium": [],
+      "low": []
+    }
+  },
+  "system_health": {
+    "data_integrity": "good",
+    "analysis_frequency": "after_each_combat",
+    "last_maintenance": "2024-01-01",
+    "next_maintenance": "2024-01-08",
+    "performance_metrics": {
+      "response_time": "fast",
+      "accuracy": "unknown",
+      "usefulness": "unknown"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "adventure_info": {
+    "title": "初学者的冒险",
+    "start_date": "2024-01-01",
+    "current_session": 1,
+    "total_sessions": 0,
+    "adventure_type": "探索",
+    "difficulty": "新手友好",
+    "expected_duration": "3-5小时"
+  },
+  "story_progression": {
+    "current_chapter": "第一章：踏上冒险之路",
+    "completed_chapters": [],
+    "story_arcs": [
+      {
+        "name": "新手村探索",
+        "status": "进行中",
+        "description": "在村庄周围探索，熟悉环境",
+        "objectives": [
+          "探索村庄周边",
+          "与村民交谈",
+          "完成第一个任务"
+        ],
+        "completed_objectives": []
+      }
+    ],
+    "major_events": [],
+    "plot_hooks": [
+      "村长需要帮助解决狼群问题",
+      "商人丢失了货物",
+      "神秘的古老遗迹"
+    ]
+  },
+  "session_logs": [
+    {
+      "session_number": 1,
+      "date": "2024-01-01",
+      "duration": "0小时",
+      "participants": ["冒险者"],
+      "summary": "角色创建完成，准备开始冒险",
+      "key_events": [
+        "角色创建完成",
+        "获得初始装备"
+      ],
+      "decisions_made": [
+        "选择战士职业",
+        "选择防御战斗风格"
+      ],
+      "combat_encounters": [],
+      "exploration": [],
+      "social_interactions": [],
+      "loot_gained": [],
+      "experience_gained": 0,
+      "notes": "初始设置完成，角色准备就绪"
+    }
+  ],
+  "character_development": {
+    "personal_growth": [],
+    "relationship_changes": [],
+    "moral_choices": [],
+    "character_arcs": []
+  },
+  "world_exploration": {
+    "locations_discovered": [
+      {
+        "name": "新手村",
+        "type": "定居点",
+        "description": "一个宁静的小村庄，是冒险者的起点",
+        "exploration_status": "完全探索",
+        "points_of_interest": [
+          "村长家",
+          "铁匠铺",
+          "酒馆",
+          "商店"
+        ]
+      }
+    ],
+    "secrets_found": [],
+    "maps_created": [],
+    "environmental_details": []
+  },
+  "quest_tracking": {
+    "active_quests": [
+      {
+        "title": "帮助村民",
+        "type": "主线任务",
+        "description": "帮助村民解决各种问题，建立声誉",
+        "objectives": [
+          "解决狼群威胁",
+          "找回丢失的货物",
+          "探索古老遗迹"
+        ],
+        "progress": 0,
+        "reward": "村民的信任和可能的装备",
+        "time_limit": "无",
+        "difficulty": "新手"
+      }
+    ],
+    "completed_quests": [],
+    "failed_quests": [],
+    "quest_chains": []
+  },
+  "npc_interactions": {
+    "important_npcs": [
+      {
+        "name": "村长",
+        "role": "任务发布者",
+        "location": "新手村",
+        "relationship": "友好",
+        "influence": "高",
+        "notes": "需要帮助解决村庄问题"
+      },
+      {
+        "name": "铁匠",
+        "role": "商人",
+        "location": "新手村",
+        "relationship": "中立",
+        "influence": "中等",
+        "notes": "可以修理和升级装备"
+      }
+    ],
+    "faction_relationships": [],
+    "reputation_tracking": {
+      "新手村": "友好",
+      "其他地区": "未知"
+    }
+  },
+  "adventure_notes": {
+    "player_notes": [],
+    "dm_notes": [
+      "这是一个新手友好的冒险",
+      "重点在于角色熟悉和基础机制学习",
+      "根据玩家表现调整难度"
+    ],
+    "session_preparation": [],
+    "improvement_suggestions": []
+  },
+  "meta_data": {
+    "last_updated": "2024-01-01",
+    "version": "1.0.0",
+    "total_play_time": "0小时",
+    "adventure_rating": 0.0,
+    "system_notes": "冒险日志系统初始化完成，等待第一次冒险"
+  }
+}

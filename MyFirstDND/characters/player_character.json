@@ -1,0 +1,259 @@
+{
+  "character_info": {
+    "name": "冒险者",
+    "race": "人类",
+    "class": "战士",
+    "background": "士兵",
+    "alignment": "守序善良",
+    "level": 1,
+    "experience": 0,
+    "proficiency_bonus": 2,
+    "inspiration": false
+  },
+  "ability_scores": {
+    "strength": {
+      "score": 16,
+      "modifier": 3,
+      "saving_throw_proficient": true,
+      "saving_throw_bonus": 5
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2,
+      "saving_throw_proficient": false,
+      "saving_throw_bonus": 2
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2,
+      "saving_throw_proficient": false,
+      "saving_throw_bonus": 2
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0,
+      "saving_throw_proficient": false,
+      "saving_throw_bonus": 0
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1,
+      "saving_throw_proficient": false,
+      "saving_throw_bonus": 1
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1,
+      "saving_throw_proficient": false,
+      "saving_throw_bonus": -1
+    }
+  },
+  "combat_stats": {
+    "armor_class": 16,
+    "initiative": 2,
+    "speed": 30,
+    "hit_points": {
+      "maximum": 12,
+      "current": 12,
+      "temporary": 0
+    },
+    "hit_dice": {
+      "d10": 1
+    },
+    "death_saves": {
+      "successes": 0,
+      "failures": 0
+    }
+  },
+  "proficiencies": {
+    "armor": ["轻甲", "中甲", "重甲", "盾牌"],
+    "weapons": ["简单武器", "军用武器"],
+    "tools": ["制甲工具", "赌博工具"],
+    "languages": ["通用语", "矮人语"],
+    "skills": [
+      {
+        "name": "运动",
+        "ability": "strength",
+        "proficient": true,
+        "bonus": 5
+      },
+      {
+        "name": "察觉",
+        "ability": "wisdom",
+        "proficient": true,
+        "bonus": 3
+      },
+      {
+        "name": "生存",
+        "ability": "wisdom",
+        "proficient": true,
+        "bonus": 3
+      },
+      {
+        "name": "威吓",
+        "ability": "charisma",
+        "proficient": true,
+        "bonus": 1
+      }
+    ]
+  },
+  "equipment": {
+    "weapons": [
+      {
+        "name": "长剑",
+        "type": "军用近战武器",
+        "damage": "1d8",
+        "damage_type": "挥砍",
+        "properties": ["多用"],
+        "proficiency": true,
+        "attack_bonus": 5,
+        "damage_bonus": 3
+      },
+      {
+        "name": "短弓",
+        "type": "简单远程武器",
+        "damage": "1d6",
+        "damage_type": "穿刺",
+        "properties": ["弹药", "双手", "射程"],
+        "proficiency": true,
+        "attack_bonus": 4,
+        "damage_bonus": 2
+      }
+    ],
+    "armor": {
+      "name": "链甲",
+      "type": "中甲",
+      "armor_class": 16,
+      "stealth_disadvantage": true
+    },
+    "shield": {
+      "name": "盾牌",
+      "armor_class_bonus": 2
+    },
+    "items": [
+      {
+        "name": "冒险者背包",
+        "type": "容器",
+        "contents": [
+          "睡袋",
+          "口粮(5天)",
+          "水袋",
+          "50尺麻绳",
+          "火把(10支)",
+          "燧石和火绒",
+          "帐篷",
+          "磨刀石"
+        ]
+      },
+      {
+        "name": "探索者工具包",
+        "type": "工具",
+        "contents": [
+          "背包",
+          "睡袋",
+          "口粮(10天)",
+          "水袋",
+          "50尺麻绳",
+          "燧石和火绒",
+          "帐篷",
+          "磨刀石",
+          "油灯",
+          "油(2品脱)",
+          "火把(10支)",
+          "口哨"
+        ]
+      },
+      {
+        "name": "箭矢",
+        "type": "弹药",
+        "quantity": 20,
+        "description": "短弓和短弩使用的箭矢"
+      }
+    ]
+  },
+  "features_and_traits": {
+    "racial_traits": [
+      {
+        "name": "人类适应性",
+        "description": "你的所有属性值+1"
+      },
+      {
+        "name": "额外技能熟练",
+        "description": "你获得一个额外技能熟练"
+      }
+    ],
+    "class_features": [
+      {
+        "name": "战斗风格",
+        "description": "你选择一种战斗风格来专精",
+        "choice": "防御",
+        "effect": "当你穿着护甲时，你的AC+1"
+      },
+      {
+        "name": "第二风",
+        "description": "你拥有有限的恢复能力",
+        "uses": {
+          "maximum": 1,
+          "current": 1
+        },
+        "effect": "使用一个附赠动作恢复1d10+1点生命值"
+      }
+    ],
+    "background_features": [
+      {
+        "name": "军事等级",
+        "description": "你拥有军事等级，士兵和军官会承认你的权威"
+      }
+    ]
+  },
+  "spells": {
+    "spellcasting_ability": null,
+    "spell_save_dc": null,
+    "spell_attack_bonus": null,
+    "spells_known": [],
+    "spell_slots": {}
+  },
+  "active_effects": {
+    "buffs": [],
+    "debuffs": [],
+    "conditions": [],
+    "concentration": null
+  },
+  "inventory": {
+    "gold": 15,
+    "silver": 0,
+    "copper": 0,
+    "gems": [],
+    "magic_items": [],
+    "consumables": []
+  },
+  "background_details": {
+    "personality_traits": [
+      "我总是在说话前先思考",
+      "我使用粗俗的谚语和表达"
+    ],
+    "ideals": [
+      "责任：我尽我所能完成我的职责"
+    ],
+    "bonds": [
+      "我永远不会忘记我第一个指挥官的面孔"
+    ],
+    "flaws": [
+      "我太诚实了，无法说谎"
+    ]
+  },
+  "combat_history": {
+    "total_combats": 0,
+    "victories": 0,
+    "defeats": 0,
+    "average_rounds": 0,
+    "total_damage_dealt": 0,
+    "total_damage_taken": 0,
+    "critical_hits": 0,
+    "critical_failures": 0
+  },
+  "development_notes": {
+    "last_updated": "2024-01-01",
+    "notes": "角色创建完成，准备开始冒险"
+  }
+}

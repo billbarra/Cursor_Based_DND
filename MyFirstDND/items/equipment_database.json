@@ -1,0 +1,263 @@
+{
+  "weapons": {
+    "simple_melee": {
+      "匕首": {
+        "name": "匕首",
+        "type": "简单近战武器",
+        "damage": "1d4",
+        "damage_type": "穿刺",
+        "properties": ["灵巧", "轻便", "投掷"],
+        "range": "5/20",
+        "weight": 1,
+        "cost": "2gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "短剑": {
+        "name": "短剑",
+        "type": "简单近战武器",
+        "damage": "1d6",
+        "damage_type": "穿刺",
+        "properties": ["灵巧", "轻便"],
+        "range": "5",
+        "weight": 2,
+        "cost": "10gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "战锤": {
+        "name": "战锤",
+        "type": "简单近战武器",
+        "damage": "1d8",
+        "damage_type": "钝击",
+        "properties": ["双手"],
+        "range": "5",
+        "weight": 3,
+        "cost": "15gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    },
+    "martial_melee": {
+      "长剑": {
+        "name": "长剑",
+        "type": "军用近战武器",
+        "damage": "1d8",
+        "damage_type": "挥砍",
+        "properties": ["多用"],
+        "range": "5",
+        "weight": 3,
+        "cost": "15gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "巨剑": {
+        "name": "巨剑",
+        "type": "军用近战武器",
+        "damage": "2d6",
+        "damage_type": "挥砍",
+        "properties": ["双手", "重"],
+        "range": "5",
+        "weight": 6,
+        "cost": "50gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "战斧": {
+        "name": "战斧",
+        "type": "军用近战武器",
+        "damage": "1d8",
+        "damage_type": "挥砍",
+        "properties": ["投掷"],
+        "range": "5/20",
+        "weight": 4,
+        "cost": "10gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    },
+    "ranged_weapons": {
+      "短弓": {
+        "name": "短弓",
+        "type": "简单远程武器",
+        "damage": "1d6",
+        "damage_type": "穿刺",
+        "properties": ["弹药", "双手", "射程"],
+        "range": "80/320",
+        "weight": 2,
+        "cost": "25gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "轻弩": {
+        "name": "轻弩",
+        "type": "简单远程武器",
+        "damage": "1d8",
+        "damage_type": "穿刺",
+        "properties": ["弹药", "双手", "射程", "装填"],
+        "range": "80/320",
+        "weight": 5,
+        "cost": "25gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    }
+  },
+  "armor": {
+    "light_armor": {
+      "皮甲": {
+        "name": "皮甲",
+        "type": "轻甲",
+        "armor_class": 11,
+        "dex_bonus": "无限制",
+        "stealth": "正常",
+        "weight": 10,
+        "cost": "10gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "镶嵌皮甲": {
+        "name": "镶嵌皮甲",
+        "type": "轻甲",
+        "armor_class": 12,
+        "dex_bonus": "无限制",
+        "stealth": "正常",
+        "weight": 13,
+        "cost": "45gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    },
+    "medium_armor": {
+      "链甲": {
+        "name": "链甲",
+        "type": "中甲",
+        "armor_class": 16,
+        "dex_bonus": "最大+2",
+        "stealth": "劣势",
+        "weight": 55,
+        "cost": "75gp",
+        "rarity": "common",
+        "special_effects": []
+      },
+      "鳞甲": {
+        "name": "鳞甲",
+        "type": "中甲",
+        "armor_class": 14,
+        "dex_bonus": "最大+2",
+        "stealth": "劣势",
+        "weight": 45,
+        "cost": "50gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    },
+    "heavy_armor": {
+      "板甲": {
+        "name": "板甲",
+        "type": "重甲",
+        "armor_class": 18,
+        "dex_bonus": "0",
+        "stealth": "劣势",
+        "weight": 65,
+        "cost": "1500gp",
+        "rarity": "common",
+        "special_effects": []
+      }
+    }
+  },
+  "shields": {
+    "盾牌": {
+      "name": "盾牌",
+      "type": "护甲",
+      "armor_class_bonus": 2,
+      "weight": 6,
+      "cost": "10gp",
+      "rarity": "common",
+      "special_effects": []
+    }
+  },
+  "magic_items": {
+    "uncommon": {
+      "+1长剑": {
+        "name": "+1长剑",
+        "type": "魔法武器",
+        "base_weapon": "长剑",
+        "enhancement_bonus": 1,
+        "rarity": "uncommon",
+        "attunement": false,
+        "special_effects": ["攻击检定和伤害掷骰+1"],
+        "lore": "这把剑散发着微弱的魔法光芒"
+      },
+      "防护戒指": {
+        "name": "防护戒指",
+        "type": "戒指",
+        "rarity": "uncommon",
+        "attunement": true,
+        "special_effects": ["AC+1"],
+        "lore": "这枚戒指能增强佩戴者的防御能力"
+      }
+    },
+    "rare": {
+      "火焰剑": {
+        "name": "火焰剑",
+        "type": "魔法武器",
+        "base_weapon": "长剑",
+        "enhancement_bonus": 1,
+        "rarity": "rare",
+        "attunement": true,
+        "special_effects": [
+          "攻击检定和伤害掷骰+1",
+          "造成额外1d6火焰伤害"
+        ],
+        "lore": "剑身燃烧着永恒的火焰"
+      }
+    }
+  },
+  "consumables": {
+    "药水": {
+      "治疗药水": {
+        "name": "治疗药水",
+        "type": "药水",
+        "rarity": "common",
+        "effect": "恢复2d4+2点生命值",
+        "cost": "50gp",
+        "weight": 0.5
+      },
+      "力量药水": {
+        "name": "力量药水",
+        "type": "药水",
+        "rarity": "uncommon",
+        "effect": "力量检定和力量豁免检定优势，持续1小时",
+        "cost": "200gp",
+        "weight": 0.5
+      }
+    },
+    "卷轴": {
+      "火球术卷轴": {
+        "name": "火球术卷轴",
+        "type": "法术卷轴",
+        "spell_level": 3,
+        "rarity": "uncommon",
+        "effect": "施展火球术",
+        "cost": "500gp",
+        "weight": 0.1
+      }
+    }
+  },
+  "loot_tables": {
+    "common_combat": {
+      "weapons": ["匕首", "短剑", "战锤"],
+      "armor": ["皮甲", "镶嵌皮甲"],
+      "consumables": ["治疗药水"],
+      "gold_range": [5, 25]
+    },
+    "uncommon_combat": {
+      "weapons": ["长剑", "巨剑", "战斧"],
+      "armor": ["链甲", "鳞甲"],
+      "magic_items": ["+1长剑", "防护戒指"],
+      "consumables": ["力量药水", "火球术卷轴"],
+      "gold_range": [25, 100]
+    }
+  }
+}

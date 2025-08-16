@@ -1,0 +1,140 @@
+{
+  "combat_balance_rules": {
+    "round_count_analysis": {
+      "too_fast": {
+        "threshold": 3,
+        "actions": [
+          "增加敌人数量",
+          "提升敌人AC",
+          "增加敌人HP",
+          "给予敌人特殊能力"
+        ]
+      },
+      "too_slow": {
+        "threshold": 8,
+        "actions": [
+          "减少敌人数量",
+          "降低敌人AC",
+          "减少敌人HP",
+          "削弱敌人特殊能力"
+        ]
+      },
+      "optimal_range": {
+        "min": 4,
+        "max": 7,
+        "actions": [
+          "保持当前难度",
+          "微调敌人属性",
+          "调整地形优势"
+        ]
+      }
+    },
+    "damage_balance_rules": {
+      "player_overperforming": {
+        "threshold": 0.7,
+        "actions": [
+          "增加敌人HP",
+          "提升敌人AC",
+          "添加伤害抗性",
+          "引入新敌人类型"
+        ]
+      },
+      "player_underperforming": {
+        "threshold": 0.3,
+        "actions": [
+          "减少敌人HP",
+          "降低敌人AC",
+          "提供战术优势",
+          "给予临时buff"
+        ]
+      }
+    }
+  },
+  "loot_adjustment_rules": {
+    "combat_performance_rewards": {
+      "excellent": {
+        "threshold": 0.8,
+        "loot_multiplier": 1.5,
+        "rare_item_chance": 0.3,
+        "gold_bonus": 1.3
+      },
+      "good": {
+        "threshold": 0.6,
+        "loot_multiplier": 1.2,
+        "rare_item_chance": 0.2,
+        "gold_bonus": 1.1
+      },
+      "average": {
+        "threshold": 0.4,
+        "loot_multiplier": 1.0,
+        "rare_item_chance": 0.1,
+        "gold_bonus": 1.0
+      },
+      "poor": {
+        "threshold": 0.2,
+        "loot_multiplier": 0.8,
+        "rare_item_chance": 0.05,
+        "gold_bonus": 0.8
+      }
+    },
+    "difficulty_based_loot": {
+      "easy": {
+        "common_items": 0.8,
+        "uncommon_items": 0.2,
+        "rare_items": 0.0
+      },
+      "normal": {
+        "common_items": 0.6,
+        "uncommon_items": 0.3,
+        "rare_items": 0.1
+      },
+      "hard": {
+        "common_items": 0.4,
+        "uncommon_items": 0.4,
+        "rare_items": 0.2
+      },
+      "deadly": {
+        "common_items": 0.2,
+        "uncommon_items": 0.5,
+        "rare_items": 0.3
+      }
+    }
+  },
+  "progression_adjustment_rules": {
+    "experience_gain": {
+      "combat_efficiency": {
+        "high": 1.2,
+        "medium": 1.0,
+        "low": 0.8
+      },
+      "exploration_bonus": 1.1,
+      "social_interaction_bonus": 1.05,
+      "puzzle_solving_bonus": 1.15
+    },
+    "skill_unlocks": {
+      "combat_mastery": {
+        "threshold": 5,
+        "skills": ["战斗直觉", "战术分析", "武器专精"]
+      },
+      "exploration_expertise": {
+        "threshold": 3,
+        "skills": ["环境感知", "地图阅读", "生存技巧"]
+      },
+      "social_skills": {
+        "threshold": 3,
+        "skills": ["说服", "欺骗", "威吓"]
+      }
+    }
+  },
+  "dynamic_adjustment": {
+    "learning_rate": 0.1,
+    "adjustment_frequency": "after_each_combat",
+    "max_adjustment_per_change": 0.3,
+    "stability_threshold": 0.1,
+    "reset_conditions": [
+      "character_level_up",
+      "major_story_event",
+      "equipment_overhaul"
+    ]
+  }
+}
