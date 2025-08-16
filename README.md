@@ -20,3 +20,23 @@
 
 
 如有任何需要或改进意见，可以联系：billbarrazz@gmail.com
+
+Hello!
+
+I apologize, but only the Chinese version is available at the moment. However, you can use Cursor to translate it into English, although I'm not sure if it will run directly after the translation.
+
+I am someone with absolutely no programming background. This project is a library I created entirely using Cursor, with the hope of playing a solo D&D campaign by conversing with it.
+
+(On a side note, I don't have much experience with tabletop RPGs either.)
+
+The reason for this project is that current AI-driven RPGs, which mostly operate by sending a prompt to an AI and then having a conversation, present many problems. For instance, some AIs forget your equipment or character attributes, leading to frequent errors. Others are unable to programmatically perform actions like rolling dice.
+
+Furthermore, game balance often becomes an issue, which can make combat tedious and uninteresting over time.
+
+To address these issues, I attempted to build the game using Cursor. The idea is to have Cursor automatically run scripts to track various information such as race, skills, equipment, and buffs, while also automatically adjusting the difficulty and balancing the numbers as the game progresses.
+
+(However, I'm not certain how effective the final implementation will be.)
+
+Therefore, this project is purely a demo. It's meant to offer a potential solution concept, and I hope that more experienced developers ("gurus" or "experts") can build upon this foundation to create more comprehensive and complete projects!
+
+For any inquiries or suggestions for improvement, please feel free to contact: billbarrazz@gmail.com
