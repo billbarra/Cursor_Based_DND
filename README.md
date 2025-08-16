@@ -1,4 +1,4 @@
-# Cursor_Based_DND
+# 中文简介
 你好！
 
 我是一个完全没有任何编程基础的人，这个项目是我完全根据 Cursor 制作的一个库，希望通过和它对话的方式来进行单人DND跑团。
@@ -17,10 +17,12 @@
 
 所以这个项目完完全全是个 demo，只是提供一种解决方案的设想，希望可以有更多的大佬能再此基础上开发出更加完备的项目！
 
-# 使用方法
+## 使用方法
 大概是直接把文件夹下载下来之后用 Cursor 或者其它 AI 代码编辑器打开，让它阅读 `AI_SYSTEM_PROMPT.md` 这个文件，之后和它说 `请阅读此系统提示，开始游戏！我要先车卡。`
 
 如有任何需要或改进意见，可以联系：billbarrazz@gmail.com
+
+# Intro
 
 Hello!
 
@@ -42,5 +44,5 @@ Therefore, this project is purely a demo. It's meant to offer a potential soluti
 
 For any inquiries or suggestions for improvement, please feel free to contact: billbarrazz@gmail.com
 
-# How to Use
+## How to Use
 "You should be able to start by downloading the folder and opening it with Cursor or another AI-powered code editor. Have it read the AI_SYSTEM_PROMPT.md file, and then say to it: Please read this system prompt and let's start the game! I want to create my character first."
